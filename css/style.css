@@ -138,10 +138,9 @@ footer a {
   
   /* index.html */
 .mapa {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-
 }
   
   /* tcperforaciones.html */
@@ -194,8 +193,7 @@ form input[type="reset"]:hover {
   background-color: #906e09;
 }
 
-  /* Media queries para dispositivos móviles y tabletas */
-
+ /* Media queries para dispositivos móviles y tabletas con una resolución máxima de 768px */
 @media (max-width: 768px) {
   .titulos {
     grid-template-columns: 1fr;
@@ -206,6 +204,7 @@ form input[type="reset"]:hover {
   }
 }
 
+/* Media queries para dispositivos móviles con una resolución máxima de 480px */
 @media (max-width: 480px) {
   .container {
     padding: 10px;
