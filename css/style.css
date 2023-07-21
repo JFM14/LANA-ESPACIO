@@ -73,9 +73,10 @@ nav ul li a {
 }
 
 .tituloImagen { 
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .tituloGnral a {
@@ -93,9 +94,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-.tituloGnral h2:hover {
-  background-color: #c0c0c0;
-}
+
 
 .tituloGnral h2:visited {
   color: #ad900f;
@@ -132,25 +131,24 @@ footer a {
   text-decoration: none;
 }
 
-
-
-  /* Estilos específicos de cada página */
+/* Estilos específicos de cada página */
   
-  /* index.html */
+/* index.html */
 .mapa {
   width: 240px;
   height: 240px;
   border-radius: 50%;
+  margin: 0 auto;
 }
+
+/* tcperforaciones.html */
   
-  /* tcperforaciones.html */
   
+/* zema.html */
   
-  /* zema.html */
+/* jcPeluqueria.html */
   
-  /* jcPeluqueria.html */
-  
-  /* contacto.html */
+/* contacto.html */
 form {
   max-width: 600px;
   margin: 20px auto;
@@ -193,7 +191,8 @@ form input[type="reset"]:hover {
   background-color: #906e09;
 }
 
- /* Media queries para dispositivos móviles y tabletas con una resolución máxima de 768px */
+/* Media queries para dispositivos móviles y tabletas */
+
 @media (max-width: 768px) {
   .titulos {
     grid-template-columns: 1fr;
@@ -204,7 +203,6 @@ form input[type="reset"]:hover {
   }
 }
 
-/* Media queries para dispositivos móviles con una resolución máxima de 480px */
 @media (max-width: 480px) {
   .container {
     padding: 10px;
