@@ -79,17 +79,19 @@ body {
         color: $primary-color;
       }
     }
-  
+
+    
+         
     img {
         width: 240px;
         height: 240px;
         border-radius: 50%;
         object-fit: cover;
-        transition: opacity 0.3s ease; /* Agregamos una transición suave */
+        transition: opacity 0.3s ease; /* transición suave */
       }
       
       img:hover {
-        opacity: 0.7; /* Cambiamos la opacidad al hacer hover */
+        opacity: 0.7; /*  opacidad al hacer hover */
       }
       
   .texto {

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Variables */
 /* Importar archivos */
+@import 'animate.css';
 * {
   margin: 0;
   padding: 0;
@@ -86,11 +87,11 @@ img {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: opacity 0.3s ease; /* Agregamos una transición suave */
+  transition: opacity 0.3s ease; /* transición suave */
 }
 
 img:hover {
-  opacity: 0.7; /* Cambiamos la opacidad al hacer hover */
+  opacity: 0.7; /*  opacidad al hacer hover */
 }
 
 .texto {
@@ -210,4 +211,15 @@ form input[type=reset]:hover {
     flex-basis: 100%;
     margin-bottom: 10px;
   }
+}
+.titulos2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ad900f;
+}
+.titulos2 h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
