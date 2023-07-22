@@ -50,21 +50,13 @@ body {
   }
   
   .titulos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    align-items: center;
+    
     text-align: center;
     margin-bottom: 20px;
     color: $primary-color;
   }
   
-  .tituloGnral {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
+  .tituloGnral 
     a {
       display: block;
       text-align: center;
@@ -89,34 +81,43 @@ body {
     }
   
     img {
-      width: 240px; 
-      height: 240px; 
-      border-radius: 50%; 
-      object-fit: cover; 
-    }
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: opacity 0.3s ease; /* Agregamos una transición suave */
+      }
+      
+      img:hover {
+        opacity: 0.7; /* Cambiamos la opacidad al hacer hover */
+      }
+      
+  .texto {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   .comoCuidar {
-    h3 {
-      font-size: 18px;
-      color: $primary-color;
-    }
+    flex: 1;
+    padding: 20px;
+    color: $primary-color;
   }
   
   .Lorem {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: $primary-color;
   }
   
   footer {
-    background-color: $secondary-color;
-    color: $primary-color;
     padding: 10px;
     text-align: center;
-  
-    a {
-      color: $primary-color;
-      text-decoration: none;
-    }
   }
   
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
