@@ -1,0 +1,41 @@
+/* Media queries para dispositivos móviles y tabletas */
+@media (max-width: 768px) {
+    .titulos {
+      grid-template-columns: 1fr;
+    }
+  
+    .tituloGnral {
+      flex-basis: 100%;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    .titulos {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+  
+    .tituloGnral {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .titulos {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+    }
+  
+    .tituloGnral {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

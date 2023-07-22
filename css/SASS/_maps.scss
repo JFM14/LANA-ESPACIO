@@ -1,0 +1,13 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .mapa {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,14 @@
+/* Variables */
+$primary-color: #ad900f;
+$secondary-color: #333;
+$background-image: url(../../IMAGENES/fey-fondo-lana.gif);
+
+/* Importar archivos */
+@import "reset";
+@import "general";
+@import "maps";
+@import "photos";
+@import "forms";
+@import "media-queries";
+
+
