@@ -2,16 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%; /* Establecer el ancho deseado para el contenedor del mapa */
-    height: 200px; /* Altura deseada para el contenedor del mapa */
-    border-radius: 10px; /* Reducir el radio del borde para que sea más rectangular */
-    overflow: hidden; /* Evita que el contenido se desborde y mantenga la forma redonda */
+    width: 100%; 
+    height: 200px; 
+    border-radius: 10px; 
+    overflow: hidden; 
   }
   
   .mapa {
-    width: 80%; /* Establecer el ancho deseado para el mapa */
-    height: 100%; /* Ajustar la altura del mapa al 100% del contenedor */
-    margin: 0 auto; /* Agregar margen automático a los lados izquierdo y derecho para centrar horizontalmente */
-    object-fit: cover; /* Ajusta el mapa al tamaño del contenedor y mantiene la relación de aspecto */
+    width: 100%; 
+    height: 100%; 
+    margin: 0 auto; 
+    object-fit: cover; 
   }
   
