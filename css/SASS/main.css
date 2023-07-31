@@ -128,7 +128,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%; /* Establecer el ancho deseado para el contenedor del mapa */
+  width: 100%; /* Establecer el ancho deseado para el contenedor del mapa */
   height: 200px; /* Altura deseada para el contenedor del mapa */
   border-radius: 10px; /* Reducir el radio del borde para que sea más rectangular */
   overflow: hidden; /* Evita que el contenido se desborde y mantenga la forma redonda */
