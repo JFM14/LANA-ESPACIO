@@ -50,19 +50,28 @@ body {
   }
   
   .titulos {
-    
-    text-align: center;
+    display: flex; // Mostramos los elementos en línea uno al lado del otro
+    justify-content: center; // Centramos los elementos horizontalmente
     margin-bottom: 20px;
     color: $primary-color;
+  
+    .tituloGnral {
+      display: flex; // Mostramos los elementos en línea uno al lado del otro
+      flex-direction: column; // Alineamos los elementos en columna (uno debajo del otro)
+      align-items: center; // Centramos los elementos horizontalmente dentro de cada títuloGnral
+      margin: 10px; // Ajusta este valor según tus preferencias
+  
+      a {
+        display: block;
+        text-align: center;
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
   }
   
-  .tituloGnral 
-    a {
-      display: block;
-      text-align: center;
-      color: $primary-color;
-      text-decoration: none;
-    }
+  
+  
   
     h2 {
       font-size: 20px;
